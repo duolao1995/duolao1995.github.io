@@ -2156,12 +2156,12 @@ pre code {
 }
 .post-eof {
   background: #ccc;
-  height: 1px;
-  margin: 80px auto 60px;
-  width: 8%;
+  text-align: center;
+  width: 0%;
+  height: 0px;
 }
 .post-block:last-of-type .post-eof {
-  display: none;
+  display: block;
 }
 .post-tags {
   margin-top: 40px;
@@ -2225,10 +2225,6 @@ pre code {
 }
 .post-reward div span {
   display: block;
-}
-.post-reward div:hover span {
-  animation: next-roll 0.1s infinite linear;
-  pointer-events: none;
 }
 .post-reward img {
   display: inline-block;
@@ -2846,7 +2842,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #17ff12;
+  background: #ff6aff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
