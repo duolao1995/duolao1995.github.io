@@ -2246,13 +2246,14 @@ pre code {
   justify-content: center;
 }
 .post-eof {
+  display: block;
   background: #ccc;
   text-align: center;
   width: 0%;
   height: 0px;
 }
 .post-block:last-of-type .post-eof {
-  display: block;
+  display: none;
 }
 .post-tags {
   margin-top: 40px;
@@ -2933,7 +2934,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #e87c18;
+  background: #67ff9c;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
