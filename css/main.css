@@ -2710,7 +2710,7 @@ hr {
   padding: 10px 0;
 }
 .footer-inner {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .footer-inner {
@@ -2934,7 +2934,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff1adf;
+  background: #ffbb63;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
